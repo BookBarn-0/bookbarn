@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BookBarn:Fill Details to Sell Your Books</title>
+    
+    <link rel="stylesheet" href="selloperationstyle.css">  
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">     
+    <!-- fontawesome -->
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    
+</head>
+
+<body>
+<!-- sell filldetails  -->   
+    <div id="sellPopup">
+        <div id="sellPopupContainer">
+            <div class="closeSellPopupDiv">
+                <a href="sell.html">
+                <span id="backCategoryPopup"><i class="fas fa-arrow-left"></i></span></a>
+                <a href="file:///C:/3rd%20year/mini%20project/bookbarn-main/bookbarn-main/homepage_final/index.html">
+                <span id="closeSellPopup">&times;</span></a>
+            </div>
+            <div class="headingDiv">
+                <span class="heading">Post Your Books</span>
+            </div>
+            <form id="sellForm">
+                <p id="categoryName"></p>
+                <input type="text" placeholder="Title.." id="adTitle" required>
+                <input type="text" placeholder="Category.." id="adCategory" required>
+                <input type="text" placeholder="Description.." id="adDescription" required>
+                <input type="number" placeholder="Price.." id="adPrice" required>
+                         
+                <input type="tel" placeholder="Phone number.." id="adPhonenumber" required pattern="[0-9]{10}"/>
+                <input type="email" placeholder="email id.." id="adEmail" required>
+                <input type="text" placeholder="Location.." id="adLocation"required>
+                <input type="file" id="adImage" multiple>
+                <input type="submit" value="Add">
+            </form>
+        </div>
+    </div>
+    <!-- sell filldetails -->   
+</body>
+</html>
