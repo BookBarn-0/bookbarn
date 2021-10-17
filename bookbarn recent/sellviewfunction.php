@@ -163,8 +163,7 @@ $email=$_GET['ema'];
                                 
                               
                                 <a href="buychatwithseller.php?action=buy&id=<?php echo $row["id"]; ?>&ema=<?php echo $email ?>" name="buy" id="button" class="btn btn-success" role="button">Chat with Seller</a>
-                               <!-- <a href="delete.php?action=delete&id=<?php echo $row["id"]; ?>" name="delete"id="button" class= "btn btn-danger">Delete</a>
-                               -->
+                               <a href="buybookbutton.php?action=buy&id=<?php echo $row["id"]; ?>&ema=<?php echo $email ?>" name="buy" id="button" class="btn btn-success" role="button">Buy</a>
 
                             </div>
                         </form>  

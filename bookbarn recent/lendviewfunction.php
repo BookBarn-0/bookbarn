@@ -119,7 +119,7 @@ $email=$_GET['email'];
 
                             <div class="preview col-md-6">             
                                 <div class="preview-pic" class="img-responsive"style=" background-color: rgb(0, 0, 0); ">
-                                  <?php echo'<img src="data:image;base64,'.base64_encode($row['Image']).'"alt="Image"class="img-responsive" style="object-fit:cover;width:330px;height:400px;margin-left:110px ;">';?>
+                                  <?php echo'<img src="data:image;base64,'.base64_encode($row['Image']).'"alt="Image"class="img-responsive" style="object-fit:cover;width:330px;height:470px;margin-left:110px ;">';?>
                                 </div>
                             </div>
                         
@@ -167,6 +167,7 @@ $email=$_GET['email'];
                                 
                                 
                                 <a href="borrowchatwithseller.php?action=buy&id=<?php echo $row["id"]; ?>&email=<?php echo $email ?>" name="buy" id="button" class="btn btn-success" role="button">Chat with Seller</a> 
+                                <a href="buybookbutton.php?action=buy&id=<?php echo $row["id"]; ?>&ema=<?php echo $email ?>" name="buy" id="button" class="btn btn-success" role="button">Borrow</a>
                             <br>
                             </div>
 
